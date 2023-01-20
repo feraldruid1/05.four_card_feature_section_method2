@@ -21,7 +21,7 @@ main {
 }
 p {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 23px;
   opacity: 0.5;
   color: #4D4F62;
@@ -54,6 +54,9 @@ line-height: 36px;
 header > p{
   margin-left: 0px;
   margin-top: 13px;
+  font-weight: 400;
+font-size: 15px;
+line-height: 25px;
 }
 header {
   width: 311px;
@@ -94,7 +97,6 @@ header {
   main{
     display: grid;
     grid-template-columns: repeat(3,350px);
-    grid-template-rows: repeat(2,250px);
     gap: 30px;
   }
 }
