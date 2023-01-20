@@ -83,23 +83,18 @@ header {
   }
 
   #d-1{
+    grid-row: 1/3;
     align-self: center;
-  }
-  #d-2{
-    align-self: start;
-  }
-  #d-3{
-    align-self: center;
-    margin-top: 30px;
   }
   #d-4{
+    grid-column: 3/3;
+    grid-row: 1/3;
     align-self: center;
   }
   main{
     display: grid;
     grid-template-columns: repeat(3,350px);
-    grid-template-rows: 500px;
-    align-items: center;
+    grid-template-rows: repeat(2,250px);
     gap: 30px;
   }
 }
