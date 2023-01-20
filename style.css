@@ -81,20 +81,25 @@ header {
     width: 350px;
     height: 250px;
   }
+
   #d-1{
-    align-self: end;
+    align-self: center;
   }
   #d-2{
+    align-self: start;
   }
   #d-3{
+    align-self: center;
+    margin-top: 30px;
   }
   #d-4{
+    align-self: center;
   }
   main{
     display: grid;
     grid-template-columns: repeat(3,350px);
+    grid-template-rows: 500px;
     align-items: center;
-    justify-content: center;
-    align-content: center;
+    gap: 30px;
   }
 }
